@@ -1,9 +1,3 @@
-// Razeen Samir
-// 3/16/2025
-// CSE 123
-// C3: Best of the Best
-// TA: Isayiah
-
 import java.io.*;
 import java.util.*;
 
