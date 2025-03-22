@@ -6,7 +6,6 @@ import java.io.PrintStream;
 import java.util.*;
 
 public class Testing {
-    // TODO: Write your tests here!
     private CollectionManager manager;
     private GradedSportsCard card1;
     private GradedSportsCard card2;
