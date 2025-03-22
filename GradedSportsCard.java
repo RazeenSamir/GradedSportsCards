@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 // This class represents a graded sports card and allows these cards to be compared with each other
