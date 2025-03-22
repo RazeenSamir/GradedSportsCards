@@ -42,19 +42,17 @@ public class Client {
             System.out.println();
 
             if (option.equalsIgnoreCase("add")) {
-                // TODO: Call your collection manager's add method and 
-                // pass in the result of the Item's parse() method
+                collectionManager.add(GradedSportsCard.parse(console));
                 System.out.println();
             } else if (option.equalsIgnoreCase("contains")) {
-                // TODO: Print the result of your collection manager's 
-                // contains method and pass in the result of the Item's parse() method
+                System.out.println(collectionManager.contains(GradedSportsCard.parse(console)));
                 System.out.println();
             } else if (option.equalsIgnoreCase("print")) {
                 System.out.println(collectionManager.toString());
                 System.out.println();
             } else if (option.equalsIgnoreCase("creative")) {
-                // collectionManager.creativeExtension(); // TODO: Update with any parameters you need!
-                System.out.println();
+                List<GradedSportsCard> list = collectionManager.filter(10);
+                System.out.println("This is a list of all cards graded a 10: " + list);
             } else if (option.equalsIgnoreCase("save")) {
                 System.out.print("Enter file to save to: ");
                 String outFileName = console.nextLine();
